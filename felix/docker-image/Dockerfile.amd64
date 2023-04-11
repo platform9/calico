@@ -25,7 +25,7 @@ RUN apt-get update && \
 ARG TARGETARCH
 FROM calico/bpftool:v5.3-${TARGETARCH} as bpftool
 
-FROM debian:10-slim
+FROM debian:11.6-slim
 LABEL maintainer="Shaun Crampton <shaun@tigera.io>"
 
 # Install remaining runtime deps required for felix from the global repository
