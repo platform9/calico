@@ -3,12 +3,12 @@
 #################################################################################################
 
 # The version of github.com/projectcalico/go-build to use.
-GO_BUILD_VER = v0.82
+GO_BUILD_VER = v0.85
 
 # Version of Kubernetes to use for tests.
 K8S_VERSION     = v1.24.7
 # This is used for bitnami/kubectl and kubectl binary release.
-KUBECTL_VERSION = v1.24.8
+KUBECTL_VERSION = v1.24.14
 
 # Version of various tools used in the build and tests.
 COREDNS_VERSION=1.5.2
@@ -23,7 +23,7 @@ ORGANIZATION = projectcalico
 GIT_USE_SSH = true
 
 # The version of BIRD to use for calico/node builds and confd tests.
-BIRD_VERSION=v0.3.3-190-g69b63580
+BIRD_VERSION=v0.3.3-202-g7a77fb73
 
 # DEV_REGISTRIES configures the container image registries which are built from this
 # repository. By default, just build images with calico/. Allow this variable to be overridden,
