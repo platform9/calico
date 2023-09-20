@@ -1,4 +1,4 @@
-FROM docker:18.09
+FROM docker:24.0.6
 
 RUN apk add --update bash python python-dev py2-pip py-setuptools openssl-dev curl jq && \
         rm -rf /var/cache/apk/*
