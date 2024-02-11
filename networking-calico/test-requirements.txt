@@ -20,3 +20,4 @@ neutron
 neutron-lib
 mock>=3.0.0 # BSD
 pyroute2 # Apache v2
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
