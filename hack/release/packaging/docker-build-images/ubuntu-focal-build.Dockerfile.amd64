@@ -1,5 +1,5 @@
-FROM ubuntu:focal
-MAINTAINER Daniel Fox <dan.fox@tigera.io>
+FROM ubuntu:rolling
+MAINTAINER Shaun Crampton <shaun@tigera.io>
 ENV STREAM focal
 
 COPY install-ubuntu-build-deps install-ubuntu-build-deps
