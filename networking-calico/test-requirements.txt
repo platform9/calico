@@ -21,3 +21,6 @@ neutron
 neutron-lib
 mock>=3.0.0 # BSD
 pyroute2 # Apache v2
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
